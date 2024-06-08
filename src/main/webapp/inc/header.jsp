@@ -57,7 +57,7 @@
 <!--/headerup-->
 <!-- 헤더 로고 / 토글메뉴-->
 <div class="headerlogo header_wrap" id="headerdown">
-	<a href="#"><img src="image/logo.png" alt="logo"></a>
+	<a href="index.jsp"><img src="image/logo.png" alt="logo"></a>
 </div>
 <div class="header_inner">
 	<nav class="nav">
@@ -110,3 +110,4 @@
 <!-- /headerdown -->
 </section>
 </header>
+<div class="container">

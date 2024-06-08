@@ -3,7 +3,6 @@
 
 <%@ include file="inc/header.jsp" %>   
 
- 
 <section class="main1">
 <div class="main1_slide">
 	<div class="main1_slider">
@@ -11,42 +10,42 @@
 			<img src="image/ main1-7.jpeg" alt="001" width="100%" height="700px">
 			<div class="main1_info">
 				<h1>SPARK ZONE premium golf club</h1>
-				<h1>사계절 다채로운 자연의 모습을 닮아가는 스파크존 골프클럽</h1>
+				<h4>사계절 다채로운 자연의 모습을 닮아가는 스파크존 골프클럽</h4>
 			</div>
 		</div>
 		<div>
 			<img src="image/main1j-2.jpeg" alt="002" width="100%" height="700px">
 			<div class="main1_info">
-				<p>SPARK ZONE Fantastic golf club</p>
-                <h1>프라이빗한 공간을 갖고있는 스파크존 골프클럽</h1>
+				<h1>SPARK ZONE Fantastic golf club</h1>
+                <h4>프라이빗한 공간을 갖고있는 스파크존 골프클럽</h4>
 			</div>
 		</div>
 		<div>
 			<img src="image/main1-3.jpeg" alt="003" width="100%" height="700px">
 			<div class="main1_info">
-				<p>SPARK ZONE Fantastic golf club</p>
-                <h1>프라이빗한 공간을 갖고있는 스파크존 골프클럽</h1>
+				<h1>SPARK ZONE Fantastic golf club</h1>
+                <h4>프라이빗한 공간을 갖고있는 스파크존 골프클럽</h4>
 			</div>
 		</div>
 		<div>
 			<img src="image/main1-4.jpeg" alt="004" width="100%" height="700px">
 			<div class="main1_info">
-				<p>SPARK ZONE Fantastic golf club</p>
-                <h1>프라이빗한 공간을 갖고있는 스파크존 골프클럽</h1>
+				<h1>SPARK ZONE Fantastic golf club</h1>
+                <h4>프라이빗한 공간을 갖고있는 스파크존 골프클럽</h4>
 			</div>
 		</div>
 		<div>
 			<img src="image/main1-5.jpeg" alt="005" width="100%" height="700px">
 			<div class="main1_info">
-				<p>SPARK ZONE Fantastic golf club</p>
-                <h1>프라이빗한 공간을 갖고있는 스파크존 골프클럽</h1>
+				<h1>SPARK ZONE Fantastic golf club</h1>
+                <h4>프라이빗한 공간을 갖고있는 스파크존 골프클럽</h4>
 			</div>
 		</div>
 		<div>
 			<img src="image/main1-6.jpeg" alt="006" width="100%" height="700px">
 			<div class="main1_info">
-				<p>SPARK ZONE Fantastic golf club</p>
-                <h1>프라이빗한 공간을 갖고있는 스파크존 골프클럽</h1>
+				<h1>SPARK ZONE Fantastic golf club</h1>
+                <h4>프라이빗한 공간을 갖고있는 스파크존 골프클럽</h4>
 			</div>
 		</div>
 	</div>
@@ -60,7 +59,6 @@
 <section class="main2_main">
 <div class="main2">
 	<div class="main2_inner">
-		</video>
 		<div class="main2_inner_back">
 			<h5 class="mt-5 scroll_on type_bottom">SPARK ZONE </h5>
 			<h6 class="scroll_on type_right">당신의 골프스윙 성공신화, SPARK ZONE이 함께합니다.</h6>
@@ -482,6 +480,14 @@
 	</div>
 </div>
 </section>
+
+
+ <div class="overlay"></div>
+    <div class="popup">
+        <button class="close-btn" onclick="closePopup()">x</button>
+        <h2>사용 프로그램 </h2>
+        <p>STS3, java11, vscode, tomecat9.0.58, figma, canva</p>
+    </div>
 
 
 <%@ include file="inc/footer.jsp" %>   

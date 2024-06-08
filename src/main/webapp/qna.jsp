@@ -18,7 +18,7 @@
 <div id="qna-container">
     <div class="qna_area">
         <ul class="qna_std">
-            <li class="on"><a href=""><span>궁금하신 사항은 자유롭게 문의남겨주시면 답변드리겠습니다.</span></a></li>
+            <li class="on"><span>궁금하신 사항은 자유롭게 문의남겨주시면 답변드리겠습니다.</span></li>
         </ul>
        <div class="row">
         <div class="col-12"><input type="button" class="btn btn-outline-dark float-right mt-3" value="문의하기" onclick="redirectToWritePage()"></div>
@@ -101,24 +101,27 @@
             </tbody>
         </table>
         
-    <!--paging-->
+   
+
+   <!--paging-->
     <div class="paging paging-basic">
         <div class="inner">
             <div class="page-group">
-                <button type="button" onclick="goPage(1)" class="btn first" title="처음 페이지"><span><i class="arw arw-notice-first">이전</i></span></button>
-                <button type="button" onclick="goPage(0)" class="btn prev" title="이전 페이지"><span><i class="arw arw-notice-prev">이전</i></span></button>
+                <button type="button" onclick="goPage(1)" class="btn first" title="처음 페이지"><span><<</span></button>
+                <button type="button" onclick="goPage(0)" class="btn prev" title="이전 페이지"><span><</span></button>
             </div>
                 <ul class="num-group">
                     <li><button type="button" onclick="goPage(1)" class="btn" id="page1" aria-current="true"><span>1</span></button></li>
                     <li><button type="button" onclick="goPage(2)" class="btn" id="page2"><span>2</span></button></li>
                     <li><button type="button" onclick="goPage(3)" class="btn" id="page3"><span>3</span></button></li>
                 </ul>
-            <div class="page-group">
-                <button type="button" onclick="goPage(4)" class="btn next" title="다음 페이지"><span><i class="arw arw-notice-next">다음</i></span></button>
-                <button type="button" onclick="goPage(3)" class="btn last" title="마지막 페이지"><span><i class="arw arw-notice-last">마지막</i></span></button>
+            <div class="page-group" >
+                <button type="button" onclick="goPage(4)" class="btn next" title="다음 페이지"><span>></span></button>
+                <button type="button" onclick="goPage(3)" class="btn last" title="마지막 페이지"><span>>></span></button>
             </div>
         </div>
-    </div> <!--/paging-->
+    </div> <!--/paging--> 
+
     </div>
   </div>  
   <%@ include file="inc/footer.jsp" %>   

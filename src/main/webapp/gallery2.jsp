@@ -14,103 +14,75 @@
     </div>
 </div>
 <!-- /main1_slide -->
-<div id="gallery-container">
-<div class="g_area">
-    <ul class="g_std">
-        <li class="off"><a href="gallery.jsp"><span>#골스타그램</span></a></li>
-        <li class="on"><a href="gallery2.jsp"><span>현장스캐치</span></a></li>
-    </ul>
-    <div>
-        <h1 class="text-center mt-5">#골스타그램</h1>
-        <p class="text-center mt-3">인스타그램 이벤트에 당첨된 게시글이 업로드 됩니다.</p>
-        <p class="text-center">#이천CC #신라CC #기장CC #프리미엄클럽 #스파크존CC</p>
-    </div>
-    <div class="col g_list container mt-5">
-        <div class="row g_box">
-            <!--350X150 사이즈 -->
-            <img src="image/main1j-2.jpeg" alt="Placeholder Image">
-            <div class="content">
-                텍스트1
+    <div id="gallery-container">
+        <div class="g_area">
+            <ul class="g_std">
+                <li class="off"><a href="gallery.jsp"><span>#골스타그램</span></a></li>
+                <li class="on"><a href="gallery2.jsp"><span>#현장스캐치</span></a></li>
+            </ul>
+            <div>
+                <h1 class="text-center mt-5">#현장스캐치</h1>
+                <p class="text-center mt-3">인스타그램 이벤트에 당첨된 게시글이 업로드 됩니다.</p>
+                <p class="text-center">#이천CC #신라CC #기장CC #프리미엄클럽 #스파크존CC</p>
             </div>
-        </div>
-        <div class="row g_box">
-            <img src="image/main1-4.jpeg" alt="Placeholder Image">
-            <div class="content">
-                텍스트1
-            </div>
-        </div>
-        <div class="row g_box">
-            <img src="image/main1-5.jpeg" alt="Placeholder Image">
-            <div class="content">
-                텍스트1
-            </div>
-        </div> 
-    </div> <!--/g_list-->
-    
+            <div class="g_list mt-5">
+                <div class="g_box">
+                    <img src="image/main1j-2.jpeg" alt="Placeholder Image">
+                    <div class="content">텍스트1</div>
+                </div>
+                <div class="g_box">
+                    <img src="image/main1-4.jpeg" alt="Placeholder Image">
+                    <div class="content">텍스트1</div>
+                </div>
+                <div class="g_box">
+                    <img src="image/main1-5.jpeg" alt="Placeholder Image">
+                    <div class="content">텍스트1</div>
+                </div>
+                <div class="g_box">
+                    <img src="image/main1j-2.jpeg" alt="Placeholder Image">
+                    <div class="content">텍스트1</div>
+                </div>
+                <div class="g_box">
+                    <img src="image/main1-4.jpeg" alt="Placeholder Image">
+                    <div class="content">텍스트1</div>
+                </div>
+                <div class="g_box">
+                    <img src="image/main1-5.jpeg" alt="Placeholder Image">
+                    <div class="content">텍스트1</div>
+                </div>
+                <div class="g_box">
+                    <img src="image/main1j-2.jpeg" alt="Placeholder Image">
+                    <div class="content">텍스트1</div>
+                </div>
+                <div class="g_box">
+                    <img src="image/main1-4.jpeg" alt="Placeholder Image">
+                    <div class="content">텍스트1</div>
+                </div>
+                <div class="g_box">
+                    <img src="image/main1-5.jpeg" alt="Placeholder Image">
+                    <div class="content">텍스트1</div>
+                </div>
+            </div> <!--/g_list-->
 
-    <div class="col g_list container mt-5">
-        <div class="row g_box">
-            <!--350X150 사이즈 -->
-            <img src="image/main1j-2.jpeg" alt="Placeholder Image">
-            <div class="content">
-                텍스트1
-            </div>
-        </div>
-        <div class="row g_box">
-            <img src="image/main1-4.jpeg" alt="Placeholder Image">
-            <div class="content">
-                텍스트1
-            </div>
-        </div>
-        <div class="row g_box">
-            <img src="image/main1-5.jpeg" alt="Placeholder Image">
-            <div class="content">
-                텍스트1
-            </div>
-        </div> 
-    </div> <!--/g_list-->
     
-    <div class="col g_list container mt-5">
-        <div class="row g_box">
-            <!--350X150 사이즈 -->
-            <img src="image/main1j-2.jpeg" alt="Placeholder Image">
-            <div class="content">
-                텍스트1
-            </div>
-        </div>
-        <div class="row g_box">
-            <img src="image/main1-4.jpeg" alt="Placeholder Image">
-            <div class="content">
-                텍스트1
-            </div>
-        </div>
-        <div class="row g_box">
-            <img src="image/main1-5.jpeg" alt="Placeholder Image">
-            <div class="content">
-                텍스트1
-            </div>
-        </div> 
-    </div> <!--/g_list-->
-    
-
-    <!--paging-->
+   <!--paging-->
     <div class="paging paging-basic">
         <div class="inner">
             <div class="page-group">
-                <button type="button" onclick="goPage(1)" class="btn first" title="처음 페이지"><span><i class="arw arw-notice-first">처음</i></span></button>
-                <button type="button" onclick="goPage(0)" class="btn prev" title="이전 페이지"><span><i class="arw arw-notice-prev">이전</i></span></button>
+                <button type="button" onclick="goPage(1)" class="btn first" title="처음 페이지"><span><<</span></button>
+                <button type="button" onclick="goPage(0)" class="btn prev" title="이전 페이지"><span><</span></button>
             </div>
                 <ul class="num-group">
                     <li><button type="button" onclick="goPage(1)" class="btn" id="page1" aria-current="true"><span>1</span></button></li>
                     <li><button type="button" onclick="goPage(2)" class="btn" id="page2"><span>2</span></button></li>
                     <li><button type="button" onclick="goPage(3)" class="btn" id="page3"><span>3</span></button></li>
                 </ul>
-            <div class="page-group">
-                <button type="button" onclick="goPage(4)" class="btn next" title="다음 페이지"><span><i class="arw arw-notice-next">다음</i></span></button>
-                <button type="button" onclick="goPage(3)" class="btn last" title="마지막 페이지"><span><i class="arw arw-notice-last">마지막</i></span></button>
+            <div class="page-group" >
+                <button type="button" onclick="goPage(4)" class="btn next" title="다음 페이지"><span>></span></button>
+                <button type="button" onclick="goPage(3)" class="btn last" title="마지막 페이지"><span>>></span></button>
             </div>
         </div>
-    </div> <!--/paging-->
+    </div> <!--/paging--> 
 
 </div> <!--/g_area-->
 </div>

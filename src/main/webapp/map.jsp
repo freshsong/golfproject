@@ -8,7 +8,7 @@
  <!-- main1_slide -->
  <div class="slogan">
         <img src="image/main1-6.jpeg" alt="001" width="100%" height="500px" style="position: relative;">
-				<div class="main1_info" style="position: absolute;">
+				<div class="mmain1_info" style="position: absolute;">
 					<h1>회사소개 </h1>
 					<h1>Home  &gt;  About  &gt;  오시는 길</h1>
 				</div>

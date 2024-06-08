@@ -82,25 +82,27 @@
 		<!--/loop-->
 		</tbody>
 		</table>
-		<!--paging-->
-		<div class="paging paging-basic">
-			<div class="inner">
-				<div class="page-group">
-					<button type="button" onclick="goPage(1)" class="btn first" title="처음 페이지"><span><i class="arw arw-notice-first">처음</i></span></button>
-					<button type="button" onclick="goPage(0)" class="btn prev" title="이전 페이지"><span><i class="arw arw-notice-prev">이전</i></span></button>
-				</div>
-				<ul class="num-group">
-					<li><button type="button" onclick="goPage(1)" class="btn" id="page1" aria-current="true"><span>1</span></button></li>
-					<li><button type="button" onclick="goPage(2)" class="btn" id="page2"><span>2</span></button></li>
-					<li><button type="button" onclick="goPage(3)" class="btn" id="page3"><span>3</span></button></li>
-				</ul>
-				<div class="page-group">
-					<button type="button" onclick="goPage(4)" class="btn next" title="다음 페이지"><span><i class="arw arw-notice-next">다음</i></span></button>
-					<button type="button" onclick="goPage(3)" class="btn last" title="마지막 페이지"><span><i class="arw arw-notice-last">마지막</i></span></button>
-				</div>
-			</div>
-		</div>
-		<!--/paging-->
+		
+
+   <!--paging-->
+    <div class="paging paging-basic">
+        <div class="inner">
+            <div class="page-group">
+                <button type="button" onclick="goPage(1)" class="btn first" title="처음 페이지"><span><<</span></button>
+                <button type="button" onclick="goPage(0)" class="btn prev" title="이전 페이지"><span><</span></button>
+            </div>
+                <ul class="num-group">
+                    <li><button type="button" onclick="goPage(1)" class="btn" id="page1" aria-current="true"><span>1</span></button></li>
+                    <li><button type="button" onclick="goPage(2)" class="btn" id="page2"><span>2</span></button></li>
+                    <li><button type="button" onclick="goPage(3)" class="btn" id="page3"><span>3</span></button></li>
+                </ul>
+            <div class="page-group" >
+                <button type="button" onclick="goPage(4)" class="btn next" title="다음 페이지"><span>></span></button>
+                <button type="button" onclick="goPage(3)" class="btn last" title="마지막 페이지"><span>>></span></button>
+            </div>
+        </div>
+    </div> <!--/paging--> 
+
 	</div>
 	<!--/notice_area-->
 </div>

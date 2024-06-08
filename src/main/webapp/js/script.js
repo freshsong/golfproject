@@ -14,6 +14,61 @@
           });
       });
   }
+    
+    /* 메인창 스크롤 다운 클릭시 하단페이지로 일부 이동 */
+    function scrollDown() {
+      window.scrollBy(0, window.innerHeight * 0.7); // 현재 창의 70% 만큼 스크롤
+    }
+    /*메인창 팝업 */
+    function closePopup() {
+        document.querySelector('.popup').style.display = 'none';
+        document.querySelector('.overlay').style.display = 'none';
+    }
+    document.addEventListener('contextmenu', function(event) {
+        event.preventDefault();
+        alert('마우스 오른쪽 클릭이 금지되어 있습니다!');
+    });
+    /*
+    12시간동안 다시 열리지 않음 (팝업) - 아직 사용 x (오류발생 유무는 쓸때 점검)
+    function setCookie(name, value, hours) {
+        const date = new Date();
+        date.setTime(date.getTime() + (hours * 60 * 60 * 1000));
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    }
+
+    function getCookie(name) {
+        const cname = name + "=";
+        const decodedCookie = decodeURIComponent(document.cookie);
+        const ca = decodedCookie.split(';');
+        for(let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(cname) == 0) {
+                return c.substring(cname.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function closePopup() {
+        document.querySelector('.popup').style.display = 'none';
+        document.querySelector('.overlay').style.display = 'none';
+        setCookie('popupClosed', 'true', 12); // 쿠키를 12시간 동안 설정
+    }
+
+    window.onload = function() {
+        if (getCookie('popupClosed') !== 'true') {
+            document.querySelector('.popup').style.display = 'block';
+            document.querySelector('.overlay').style.display = 'block';
+        } else {
+            document.querySelector('.popup').style.display = 'none';
+            document.querySelector('.overlay').style.display = 'none';
+        }
+    }
+    */
   /* index 페이지 퀵메뉴 위버튼 클릭 상단 이동 (.txtwrap 주석-Top이동시 글자색 변경되서 이후 수정)*/
   $( document ).ready( function() {
     /*
@@ -28,10 +83,9 @@
       $( 'html, body' ).animate( { scrollTop : 0 }, 400 );
       return false;
     } );
-    /* 메인창 스크롤 다운 클릭시 하단페이지로 일부 이동 */
-    function scrollDown() {
-      window.scrollBy(0, window.innerHeight * 0.7); // 현재 창의 70% 만큼 스크롤
-    }
+    
+    
+  
   } );
 
 

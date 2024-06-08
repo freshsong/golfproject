@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 
     
-    
+    </div><!-- /container -->
 <!-- footer-->
 <footer>
 <div class="footerup">
